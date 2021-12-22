@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="200dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company:"
+        android:paddingStart="15dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:text="Khanh "
+        android:textSize="16dp" />
+
+
+
+
+</LinearLayout>
